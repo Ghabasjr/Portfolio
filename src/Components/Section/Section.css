@@ -1,0 +1,25 @@
+.section {
+  margin: 15px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hello-text {
+  color: #b33d78;
+}
+.text {
+  color: #fff;
+}
+.para-text {
+  color: #adb7be;
+}
+.btn-like {
+  display: flex;
+  gap: 1rem;
+}
+.image {
+  width: 300px;
+  height: 300px;
+}

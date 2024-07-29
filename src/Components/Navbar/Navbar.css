@@ -1,0 +1,24 @@
+body {
+  background-color: rgb(18, 18, 18);
+}
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.flex-container {
+  border: 1px solid rgb(145, 141, 141);
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  margin: 10px;
+  justify-content: space-between;
+}
+.container-text1 {
+  display: flex;
+  list-style-type: none;
+  align-items: normal;
+  gap: 1rem;
+  color: rgb(180, 182, 184);
+  padding: 0;
+}

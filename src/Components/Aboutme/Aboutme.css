@@ -1,0 +1,21 @@
+.about-text {
+  color: #ffff;
+}
+.about {
+  display: flex;
+  flex-direction: row;
+  margin: 10rem;
+  gap: 3rem;
+  align-items: center;
+}
+.about-img1 {
+  width: px;
+  height: 300px;
+}
+.text-p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.about-header {
+  font: bold;
+}
