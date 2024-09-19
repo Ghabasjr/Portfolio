@@ -3,22 +3,20 @@ import "./Section2.css";
 
 function Section2() {
   return (
-    <div>
-      <div className="animation">
-        <div className="projects-text">
-          <h2>100+</h2>
-          <p>Projects</p>
-        </div>
-        <div className="users-txt">
-          <h2>~100</h2>
-          <p>Users</p>
-        </div>
-        <div className="experience">
-          <h2>3</h2>
-          <p>Years</p>
-        </div>
+    <section className="section2">
+      <div className="stat-item">
+        <h2 className="stat-number">100+</h2>
+        <p className="stat-label">Projects</p>
       </div>
-    </div>
+      <div className="stat-item">
+        <h2 className="stat-number">~100</h2>
+        <p className="stat-label">Users</p>
+      </div>
+      <div className="stat-item">
+        <h2 className="stat-number">3</h2>
+        <p className="stat-label">Years</p>
+      </div>
+    </section>
   );
 }
 

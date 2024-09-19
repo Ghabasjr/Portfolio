@@ -3,28 +3,32 @@ import "./Navbar.css";
 
 function Navbar() {
   return (
-    <main className="main-container">
+    <header className="main-container">
       <nav className="nav-bar">
         <div className="flex-container">
-          <div className="log-o">
+          <div className="logo-container">
             <img className="logo" src="hero-image.jpg" alt="logo" />
           </div>
-          <div className="container-text">
-            <ul className="container-text1">
-              <li>
-                <a href="Aboutme">About</a>
-              </li>
-              <li>
-                <a href="projects">Projects</a>
-              </li>
-              <li>
-                <a href="contactme">Contact</a>
-              </li>
-            </ul>
-          </div>
+          <ul className="nav-links">
+            <li>
+              <a href="Aboutme.js" className="nav-link">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="Myprojects.js" className="nav-link">
+                Projects
+              </a>
+            </li>
+            <li>
+              <a href="contactme" className="nav-link">
+                Contact
+              </a>
+            </li>
+          </ul>
         </div>
       </nav>
-    </main>
+    </header>
   );
 }
 

@@ -3,33 +3,37 @@ import "./Section.css";
 
 function Section() {
   return (
-    <div className="section">
+    <section className="section">
       <div className="section-text">
         <h1 className="text">
-          <span className="hello-text">HELLO, IM</span>
+          <span className="hello-text">HELLO, I'M</span>
           <br />
-          <span>KHALID UMAR MUHAMMAD</span>
+          <span className="name-text">KHALID UMAR MUHAMMAD</span>
           <br />
-          <span>FRONTEND ENGINEER</span>
+          <span className="role-text">FRONTEND DEVELOPER</span>
         </h1>
-        <p className="para-text">EXPERIENCE FRONTEND ENGINEER</p>
-        {/* //not finished yet */}
-        <div className="btn-like">
-          <a href="hireme">
-            <button>HIRE ME</button>
+        <p className="para-text">EXPERIENCED FRONTEND DEVELOPER</p>
+        <div className="btn-group">
+          <a href="skills.js" className="btn-link">
+            <button className="btn">HIRE ME</button>
           </a>
-          <a href="cv">
-            <button>
-              <span>DOWNLOAD CV</span>
-            </button>
+          <a
+            href="https://drive.google.com/file/d/1-4SICPRD5_k_noNcn23rXrIgrOuwjZeg/view?usp=drive_link"
+            className="btn-link"
+          >
+            <button className="btn">DOWNLOAD CV</button>
           </a>
         </div>
       </div>
 
       <div>
-        <img className="image" src="hero-image.jpg" alt="" />
+        <img
+          className="image"
+          src="hero-image.jpg"
+          alt="Khalid Umar Muhammad"
+        />
       </div>
-    </div>
+    </section>
   );
 }
 
