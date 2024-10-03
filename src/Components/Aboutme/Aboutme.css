@@ -1,4 +1,4 @@
-.about-text {
+/* .about-text {
   color: #fff;
 }
 
@@ -74,4 +74,136 @@
 .mt-skills li::before {
   content: "• ";
   color: #8a2be2;
+} */
+
+.about-text {
+  color: #fff;
+}
+
+.about {
+  display: flex;
+  flex-direction: row; /* Default layout for larger screens */
+  margin: 10rem;
+  gap: 3rem;
+}
+
+.text-area {
+  width: 100%;
+}
+
+.connect-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.submit-btn {
+  width: 100%;
+}
+
+.about-img1 {
+  width: 300px;
+  height: 300px;
+}
+
+.text-p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  margin-bottom: 1.5rem;
+}
+
+.about-header {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.mo-connect {
+  font-size: 20px;
+  font-weight: 800;
+  font-family: emoji;
+}
+
+.socials-logo {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: flex-end;
+}
+
+.btn0 {
+  border-radius: 20%;
+  cursor: pointer;
+  color: black;
+  background-color: #b33d78;
+  margin-right: 1rem;
+}
+
+.about-btn {
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+}
+
+.mt-skills ul {
+  list-style-type: none;
+  padding-left: 0;
+  color: #fff;
+}
+
+.mt-skills li::before {
+  content: "• ";
+  color: #8a2be2;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column; /* Stack items vertically for smaller screens */
+    margin: 2rem; /* Reduce margin for smaller screens */
+    gap: 2rem; /* Adjust gap */
+  }
+
+  .about-img1 {
+    width: 100%; /* Make image responsive on smaller screens */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .text-area {
+    width: 100%; /* Full width for smaller screens */
+  }
+
+  .connect-section {
+    flex-direction: column; /* Stack connect section vertically on smaller screens */
+  }
+
+  .socials-logo {
+    justify-content: center; /* Center logos on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    margin: 1rem; /* Further reduce margin for very small screens */
+  }
+
+  .about-header {
+    font-size: 1.5rem; /* Reduce header font size */
+  }
+
+  .text-p {
+    font-size: 18px; /* Reduce paragraph font size */
+  }
+
+  .mo-connect {
+    font-size: 18px; /* Reduce font size for mobile */
+  }
+
+  .submit-btn,
+  .about-btn {
+    width: 100%; /* Full width buttons on mobile */
+  }
+
+  .about-img1 {
+    width: 100%; /* Image takes up full width */
+    height: auto; /* Maintain aspect ratio */
+  }
 }
