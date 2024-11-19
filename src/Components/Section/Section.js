@@ -18,7 +18,7 @@ function Section() {
             <button className="btn">HIRE ME</button>
           </a>
           <a
-            href="https://drive.google.com/file/d/1-4SICPRD5_k_noNcn23rXrIgrOuwjZeg/view?usp=drive_link"
+            href="https://drive.google.com/file/d/19ZVkZfWdmql2qpgMRgJW5663-enIdjsL/view?usp=drive_link"
             className="btn-link"
           >
             <button className="btn">DOWNLOAD CV</button>

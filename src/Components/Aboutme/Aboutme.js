@@ -17,17 +17,15 @@ function Aboutme() {
       <div className="about-text">
         <h2 className="about-header">About Me</h2>
         <p className="text-p">
-          I am an experienced Full Stack Developer with expertise in Java,{" "}
-          <b>React</b>, Next.js, and Angular. I specialize in building scalable
-          web applications, handling both front-end and back-end development. I
-          take projects from concept to deployment, focusing on intuitive user
-          interface design and robust server-side logic.
+          I am a Junior Frontend Developer with expertise in ReactJS,{" "}
+          <b>React</b>, React-Native, and . I specialize in building scalable
+          web applications, handling front-end. I take projects from concept to
+          deployment, focusing on intuitive user interface design.
         </p>
         <p className="text-p">
-          My key skills include Java, Microservices architecture, Python,
-          Angular, Next.js, HTML5, CSS3, JavaScript, and RESTful APIs. I excel
-          in problem-solving and work effectively with cross-functional teams to
-          ensure high-quality code delivery within project timelines.
+          My key skills include HTML5, CSS3, JavaScript, and RESTful APIs. I
+          excel in problem-solving and work effectively with cross-functional
+          teams to ensure high-quality code delivery within project timelines.
         </p>
         <p className="text-p">
           I am passionate about optimizing performance, enhancing user
@@ -38,11 +36,10 @@ function Aboutme() {
         </p>
         <p className="text-p">
           <strong>Technologies and Tools:</strong> <br />
-          ✅ APIs: Google Ads API, Facebook Business API <br />
-          ✅ Authentication: Apache Camel <br />✅ Architecture: Microservices,
-          API Gateway, Configuration Management <br />
-          ✅ Search Technologies: Elasticsearch <br />✅ UI Frameworks: ReactJS,
-          React-Native, Next.js
+          ✅ API
+          <br />
+          ✅ Authentication
+          <br />✅ UI Frameworks: ReactJS, React-Native.
         </p>
         <div className="btn-about">
           <button className="btn0">
@@ -78,7 +75,7 @@ function Aboutme() {
               <li>JavaScript ES6</li>
               <li>ReactJS</li>
               <li>React-Native</li>
-              <li>Next.js</li>
+              {/* <li>Next.js</li> */}
               <li>Git/GitHub</li>
               <li>TypeScript</li>
             </ul>

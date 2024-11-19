@@ -43,3 +43,22 @@
 .project-btn:active {
   transform: scale(0.98);
 }
+
+.project-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.project-link-btn {
+  background-color: #a32c68;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.project-link-btn:hover {
+  background-color: #a32c68;
+}
