@@ -3,7 +3,7 @@ import "./Skills.css";
 
 function Skills() {
   return (
-    <div className="co-skills">
+    <div id="skills" className="co-skills">
       <div className="connect">
         <h5 className="connect-text">Let's Connect</h5>
         <p className="connect-para">

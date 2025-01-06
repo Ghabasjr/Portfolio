@@ -7,21 +7,21 @@ function Navbar() {
       <nav className="nav-bar">
         <div className="flex-container">
           <div className="logo-container">
-            <img className="logo" src="hero-image.jpg" alt="logo" />
+            <img className="logo" src="_MG_2698.JPG" alt="logo" />
           </div>
           <ul className="nav-links">
             <li>
-              <a href="Aboutme.js" className="nav-link">
+              <a href="#about" className="nav-link">
                 About
               </a>
             </li>
             <li>
-              <a href="Myprojects.js" className="nav-link">
+              <a href="#myprojects" className="nav-link">
                 Projects
               </a>
             </li>
             <li>
-              <a href="contactme" className="nav-link">
+              <a href="#skills" className="nav-link">
                 Contact
               </a>
             </li>

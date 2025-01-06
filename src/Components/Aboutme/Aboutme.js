@@ -9,7 +9,7 @@ function Aboutme() {
   };
 
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="about-img">
         <img className="about-img1" src="about-image.jpg" alt="About Me" />
       </div>

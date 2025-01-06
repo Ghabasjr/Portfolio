@@ -14,11 +14,11 @@ function Section() {
         </h1>
         <p className="para-text">EXPERIENCED FRONTEND DEVELOPER</p>
         <div className="btn-group">
-          <a href="skills.js" className="btn-link">
+          <a href="#skills" className="btn-link">
             <button className="btn">HIRE ME</button>
           </a>
           <a
-            href="https://drive.google.com/file/d/19ZVkZfWdmql2qpgMRgJW5663-enIdjsL/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1k00xGsshg_eNpLtOdJWAENW4KXPHLKht/view?usp=drive_link"
             className="btn-link"
           >
             <button className="btn">DOWNLOAD CV</button>
@@ -27,11 +27,7 @@ function Section() {
       </div>
 
       <div>
-        <img
-          className="image"
-          src="hero-image.jpg"
-          alt="Khalid Umar Muhammad"
-        />
+        <img className="image" src="_MG_2698.jpg" alt="Khalid Umar Muhammad" />
       </div>
     </section>
   );

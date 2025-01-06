@@ -47,6 +47,10 @@
 .project-link {
   margin-top: 20px;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: center; */
 }
 
 .project-link-btn {
