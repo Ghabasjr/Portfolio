@@ -17,7 +17,7 @@ function Aboutme() {
       <div className="about-text">
         <h2 className="about-header">About Me</h2>
         <p className="text-p">
-          I am a Junior Frontend Developer with expertise in ReactJS,{" "}
+          I am a Frontend Developer with expertise in ReactJS, NextJS
           <b>React</b>, React-Native, and . I specialize in building scalable
           web applications, handling front-end. I take projects from concept to
           deployment, focusing on intuitive user interface design.
@@ -75,7 +75,7 @@ function Aboutme() {
               <li>JavaScript ES6</li>
               <li>ReactJS</li>
               <li>React-Native</li>
-              {/* <li>Next.js</li> */}
+              <li>Next.js</li>
               <li>Git/GitHub</li>
               <li>TypeScript</li>
             </ul>
