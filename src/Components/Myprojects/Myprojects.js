@@ -13,7 +13,7 @@ function Myprojects() {
           <button className="project-btn">Mobile</button>
         </div>
 
-        {/* Add the e-commerce web app link here */}
+        {/* Project links */}
         <div className="project-link">
           <a
             href="https://e-commerce-rouge-xi.vercel.app"
@@ -32,6 +32,16 @@ function Myprojects() {
             className="project-link-btn"
           >
             Edu Connect
+          </a>
+        </div>
+        <div className="project-link">
+          <a
+            href="https://sync-learnin.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-link-btn"
+          >
+            Sync Learning
           </a>
         </div>
       </section>

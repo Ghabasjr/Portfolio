@@ -66,6 +66,14 @@ function Aboutme() {
               Certifications
             </p>
           </button>
+          <button className="btn0">
+            <p
+              className="about-btn"
+              onClick={() => handleSectionChange("experience")}
+            >
+              Experience
+            </p>
+          </button>
         </div>
         {activeSection === "skills" && (
           <div className="mt-skills">
@@ -76,6 +84,7 @@ function Aboutme() {
               <li>ReactJS</li>
               <li>React-Native</li>
               <li>Next.js</li>
+              <li>Figma</li>
               <li>Git/GitHub</li>
               <li>TypeScript</li>
             </ul>
@@ -94,6 +103,15 @@ function Aboutme() {
             <ul>
               <li>Certified JavaScript Developer</li>
               <li>React Professional Certification</li>
+            </ul>
+          </div>
+        )}
+        {activeSection === "experience" && (
+          <div className="mt-experience">
+            <ul>
+              <li>Frontend Developer at ForkHive - Developed CropnCarry, CronCarry Couriers, MyInvest, and Eloniecommerce using Expo CLI and web technologies.</li>
+              <li>Frontend Developer at TalenVo - Built EduConnect from scratch.</li>
+              <li>Frontend Developer at Appentus - Developed the Tender Management System from scratch and worked on Samsung and LG TV apps.</li>
             </ul>
           </div>
         )}
