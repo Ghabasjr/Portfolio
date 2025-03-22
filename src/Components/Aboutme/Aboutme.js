@@ -39,7 +39,7 @@ function Aboutme() {
           ✅ API
           <br />
           ✅ Authentication
-          <br />✅ UI Frameworks: ReactJS, React-Native.
+          <br />✅ UI Frameworks: ReactJS, React-Native (Expo CLI).
         </p>
         <div className="btn-about">
           <button className="btn0">
@@ -82,7 +82,7 @@ function Aboutme() {
               <li>CSS3</li>
               <li>JavaScript ES6</li>
               <li>ReactJS</li>
-              <li>React-Native</li>
+              <li>React-Native(Expo CLI)</li>
               <li>Next.js</li>
               <li>Figma</li>
               <li>Git/GitHub</li>
