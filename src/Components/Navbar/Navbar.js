@@ -7,7 +7,7 @@ function Navbar() {
       <nav className="nav-bar">
         <div className="flex-container">
           <div className="logo-container">
-            <img className="logo" src="_MG_2698.JPG" alt="logo" />
+            <img className="logo" src="/_MG_2698.JPG" alt="logo" />
           </div>
           <ul className="nav-links">
             <li>
