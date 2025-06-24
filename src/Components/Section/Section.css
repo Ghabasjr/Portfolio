@@ -83,3 +83,79 @@
     margin-top: 1.5rem;
   }
 }
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.section-text {
+  flex: 1;
+  min-width: 300px;
+  padding-right: 30px;
+}
+
+.image {
+  width: 300px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.text {
+  line-height: 1.4;
+}
+
+.hello-text {
+  font-size: 1rem;
+  color: #FFF;
+  letter-spacing: 1px;
+}
+
+.name-text {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.role-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #444;
+}
+
+.para-text {
+  margin: 16px 0;
+  font-size: 1rem;
+  color: #FFF;
+}
+
+.btn-group {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 10px 18px;
+  font-size: 1rem;
+  background-color: #b33d78;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #b33d78;
+}
+
+.name-text, .role-text {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #FFF;
+  margin-top: 10px;
+  min-height: 50px; /* Prevent layout shift during typing */
+}

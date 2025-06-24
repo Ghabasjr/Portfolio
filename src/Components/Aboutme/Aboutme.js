@@ -16,31 +16,23 @@ function Aboutme() {
 
       <div className="about-text">
         <h2 className="about-header">About Me</h2>
-        <p className="text-p">
-          I am a Frontend Developer with expertise in ReactJS, NextJS
-          <b>React</b>, React-Native, and . I specialize in building scalable
-          web applications, handling front-end. I take projects from concept to
-          deployment, focusing on intuitive user interface design.
-        </p>
-        <p className="text-p">
-          My key skills include HTML5, CSS3, JavaScript, and RESTful APIs. I
-          excel in problem-solving and work effectively with cross-functional
-          teams to ensure high-quality code delivery within project timelines.
-        </p>
-        <p className="text-p">
-          I am passionate about optimizing performance, enhancing user
-          experience, and embracing continuous integration and test-driven
-          development. Staying updated with industry trends and best practices
-          is a priority for me, and I am always open to new challenges and
-          opportunities for growth.
-        </p>
-        <p className="text-p">
-          <strong>Technologies and Tools:</strong> <br />
-          ✅ API
-          <br />
-          ✅ Authentication
-          <br />✅ UI Frameworks: ReactJS, React-Native (Expo CLI).
-        </p>
+<p className="text-p">
+  I’m a Frontend Developer with hands-on experience in building responsive and scalable applications using <strong>ReactJS</strong>, <strong>Next.js</strong>, and <strong>React Native (Expo CLI)</strong>. I specialize in transforming UI/UX designs into functional interfaces and bringing ideas from concept to deployment with performance and usability in mind.
+</p>
+<p className="text-p">
+  My key strengths include writing clean, maintainable code using HTML5, CSS3, JavaScript (ES6+), and TypeScript. I collaborate effectively with cross-functional teams and have a solid understanding of REST APIs, authentication systems, and modern component-based architecture.
+</p>
+<p className="text-p">
+  I'm passionate about improving user experience, optimizing performance, and following best practices such as version control, modular design, and responsive design principles. I stay updated with the latest frontend trends and continuously seek new challenges to grow as a developer.
+</p>
+<p className="text-p">
+  <strong>Technologies & Tools:</strong> <br />
+  ✅ HTML5, CSS3, JavaScript (ES6+), TypeScript<br />
+  ✅ Frameworks & Libraries: ReactJS, Next.js, React Native (Expo CLI)<br />
+  ✅ Tools: Git, GitHub, Figma, REST APIs, Firebase, VS Code<br />
+  ✅ Others: Authentication, API Integration, Mobile-First Design
+</p>
+
         <div className="btn-about">
           <button className="btn0">
             <p

@@ -1,4 +1,55 @@
 .projects-sec {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.header-project {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-card {
+  width: 280px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  background: #fff;
+}
+
+.project-card:hover {
+  transform: scale(1.03);
+}
+
+.project-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.project-title {
+  padding: 12px;
+  font-size: 1.1rem;
+  color: #333;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+.projects-sec {
   display: flex;
   flex-direction: column;
   justify-content: center;
