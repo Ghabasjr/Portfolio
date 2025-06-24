@@ -32,6 +32,11 @@ function Myprojects() {
       title: "Marycharis Foundation",
       image: "/Marycharis.png",
       link: "https://https://www.marycharisfoundation.org/",
+    },
+    {
+      title:"SplitEasy",
+      image:"/Easy.png",
+      link:"https://split-easy-sepia.vercel.app/"
     }
   ];
 
