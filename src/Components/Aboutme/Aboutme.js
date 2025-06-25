@@ -77,6 +77,11 @@ function Aboutme() {
               <li>React-Native(Expo CLI)</li>
               <li>Next.js</li>
               <li>Figma</li>
+              <li>Jira</li>
+              <li>Click Up</li>
+              <li>Microsoft Teams</li>
+              <li>REST APIs</li>
+              <li>Firebase</li>
               <li>Git/GitHub</li>
               <li>TypeScript</li>
             </ul>
