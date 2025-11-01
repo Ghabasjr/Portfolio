@@ -17,20 +17,21 @@ function Aboutme() {
       <div className="about-text">
         <h2 className="about-header">About Me</h2>
 <p className="text-p">
-  I’m a Frontend Developer with hands-on experience in building responsive and scalable applications using <strong>ReactJS</strong>, <strong>Next.js</strong>, and <strong>React Native (Expo CLI)</strong>. I specialize in transforming UI/UX designs into functional interfaces and bringing ideas from concept to deployment with performance and usability in mind.
+  I'm a <strong>Mobile and Frontend Developer</strong> with experience building and deploying scalable apps for <strong>fintech, real estate, and cultural platforms</strong>. I specialize in <strong>React Native (Expo)</strong>, <strong>React</strong>, and modern frontend frameworks with a strong background in API-driven development and user-focused design.
 </p>
 <p className="text-p">
-  My key strengths include writing clean, maintainable code using HTML5, CSS3, JavaScript (ES6+), and TypeScript. I collaborate effectively with cross-functional teams and have a solid understanding of REST APIs, authentication systems, and modern component-based architecture.
+  I have successfully <strong>published the My Invest fintech app on the Google Play Store</strong>, implementing secure authentication and real-time investment tracking. My work spans across <strong>Britkings (real estate)</strong> with map integration and advanced search features, and <strong>Globalroots (cultural app)</strong> with multimedia content delivery.
 </p>
 <p className="text-p">
-  I'm passionate about improving user experience, optimizing performance, and following best practices such as version control, modular design, and responsive design principles. I stay updated with the latest frontend trends and continuously seek new challenges to grow as a developer.
+  I'm passionate about delivering <strong>responsive, high-performance mobile and web solutions</strong>. My key strengths include writing clean, maintainable code using <strong>TypeScript, JavaScript (ES6+)</strong>, integrating <strong>REST APIs</strong>, implementing <strong>Redux Toolkit</strong> for state management, and ensuring seamless CI/CD workflows with <strong>Git and Vercel</strong>.
 </p>
 <p className="text-p">
-  <strong>Technologies & Tools:</strong> <br />
-  ✅ HTML5, CSS3, JavaScript (ES6+), TypeScript<br />
-  ✅ Frameworks & Libraries: ReactJS, Next.js, React Native (Expo CLI)<br />
-  ✅ Tools: Git, GitHub, Figma, REST APIs, Firebase, VS Code<br />
-  ✅ Others: Authentication, API Integration, Mobile-First Design
+  <strong>Core Competencies:</strong> <br />
+  ✅ React Native (Expo), React, Next.js, TypeScript, JavaScript<br />
+  ✅ REST API Integration, Redux Toolkit, Authentication Systems<br />
+  ✅ UI/UX Design with Figma, Tailwind CSS, Responsive Design<br />
+  ✅ Mobile Deployment (Google Play Store), Git, Vercel, CI/CD<br />
+  ✅ Cross-functional Collaboration, Agile Development
 </p>
 
         <div className="btn-about">
@@ -70,45 +71,77 @@ function Aboutme() {
         {activeSection === "skills" && (
           <div className="mt-skills">
             <ul>
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>JavaScript ES6</li>
-              <li>ReactJS</li>
-              <li>React-Native(Expo CLI)</li>
-              <li>Next.js</li>
-              <li>Figma</li>
-              <li>Jira</li>
-              <li>Click Up</li>
-              <li>Microsoft Teams</li>
-              <li>REST APIs</li>
-              <li>Firebase</li>
-              <li>Git/GitHub</li>
+              <li>React Native (Expo)</li>
+              <li>React</li>
               <li>TypeScript</li>
+              <li>JavaScript (ES6+)</li>
+              <li>Next.js</li>
+              <li>REST API Integration</li>
+              <li>Redux Toolkit</li>
+              <li>Authentication Systems</li>
+              <li>UI/UX Design with Figma</li>
+              <li>Tailwind CSS</li>
+              <li>HTML5 & CSS3</li>
+              <li>Mobile Deployment (Play Store)</li>
+              <li>Git & GitHub</li>
+              <li>Vercel</li>
+              <li>CI/CD Workflows</li>
+              <li>Agile Development</li>
             </ul>
           </div>
         )}
         {activeSection === "education" && (
           <div className="mt-education">
             <ul>
-              <li>Bachelor's Degree in Microbiology</li>
-              <li>Online Courses: Udemy.</li>
+              <li><strong>B.Sc. Microbiology</strong> - University of Maiduguri (2017 - 2021)</li>
+              <li>Second Class Upper Division</li>
+              <li>Advanced Frontend Development - Udemy</li>
+              <li>Redux Essentials - Udemy</li>
             </ul>
           </div>
         )}
         {activeSection === "certification" && (
           <div className="mt-certifications">
             <ul>
-              <li>Certified JavaScript Developer</li>
-              <li>React Professional Certification</li>
+              <li><strong>LagUp Africa Fellowship:</strong></li>
+              <li>Frontend Development</li>
+              <li>Business Writing & Communication</li>
+              <li>Critical Thinking</li>
+              <li>Workplace Culture & People Management</li>
+              <li>Customer Value & Product Thinking</li>
+              <li>Ideas to Business</li>
+              <li><strong>Udemy:</strong></li>
+              <li>Advanced Frontend Development</li>
+              <li>Redux Essentials</li>
             </ul>
           </div>
         )}
         {activeSection === "experience" && (
           <div className="mt-experience">
             <ul>
-              <li>Frontend Developer at ForkHive - Developed CropnCarry, CronCarry Couriers, MyInvest, and Eloniecommerce using Expo CLI and web technologies.</li>
-              <li>Frontend Developer at TalenVo - Built EduConnect from scratch.</li>
-              <li>Frontend Developer at Appentus - Developed the Tender Management System from scratch and worked on Samsung and LG TV apps.</li>
+              <li><strong>Mobile & Frontend Developer — FORKHIVE</strong> (Remote | Jan 2024 - Present)
+                <ul>
+                  <li>Built and deployed My Invest fintech app on Google Play Store using React Native (Expo)</li>
+                  <li>Integrated secure authentication and real-time investment tracking</li>
+                  <li>Developed Britkings (real estate) and Globalroots (cultural app)</li>
+                  <li>Implemented map integration, search, and multimedia features</li>
+                  <li>Maintained and optimized responsive web apps with React and Tailwind CSS</li>
+                  <li>Ensured app scalability, CI/CD workflows, and version control with Git and Vercel</li>
+                </ul>
+              </li>
+              <li><strong>Frontend Developer — APPENTUS (Tender Management System)</strong> (Remote | Jan 2024 - Mar 2025)
+                <ul>
+                  <li>Architected and implemented tender management system frontend using React</li>
+                  <li>Integrated secure login/authentication and optimized REST API communication</li>
+                </ul>
+              </li>
+              <li><strong>Frontend Developer — TALENVO (EduConnect)</strong> (Remote | Jan 2023 - Dec 2023)
+                <ul>
+                  <li>Developed EduConnect EdTech app with React and Tailwind CSS</li>
+                  <li>Integrated third-party APIs and managed state with Redux Toolkit</li>
+                  <li>Collaborated with designers to deliver mobile-first, responsive UIs</li>
+                </ul>
+              </li>
             </ul>
           </div>
         )}

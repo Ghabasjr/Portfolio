@@ -11,6 +11,11 @@ function Skills() {
           Whether you have a question or just want to say hi, I'll try my best
           to get back to you!
         </p>
+        <p className="contact-details">
+          <strong>Location:</strong> Kano State, Nigeria<br/>
+          <strong>Phone:</strong> +234 8109981707<br/>
+          <strong>Email:</strong> khalidumar089@gmail.com
+        </p>
         <div className="logo">
           <a href="https://github.com/Ghabasjr" aria-label="GitHub">
             <img className="logo-image" alt="GitHub Logo" src="/github.png" />

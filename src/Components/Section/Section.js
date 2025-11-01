@@ -31,7 +31,7 @@ function Section() {
 
 <span className="role-text">
   <Typewriter
-    words={["FRONTEND DEVELOPER","REACT, NEXT.JS, MOBILE APPLICATION DEVELOPER", "UI ENGINEER"]}
+    words={["FRONTEND & MOBILE DEVELOPER","REACT NATIVE (EXPO) DEVELOPER", "REACT & NEXT.JS SPECIALIST", "UI/UX ENGINEER"]}
     loop={Infinity}
     cursor
     cursorStyle="_"
@@ -50,7 +50,7 @@ function Section() {
           transition={{ delay: 1 }}
           viewport={{ once: true }}
         >
-          Passionate about building responsive and user-friendly web and mobile applications.
+          Mobile and Frontend Developer with experience building and deploying scalable apps for fintech, real estate, and cultural platforms. Published My Invest fintech app on the Google Play Store. Passionate about delivering responsive, high-performance mobile and web solutions.
         </motion.p>
 
         <motion.div
