@@ -64,7 +64,7 @@ function Section() {
             <button className="btn">HIRE ME</button>
           </a>
           <a
-            href="https://drive.google.com/file/d/136nlUZbM0wLmh6UxrL4FO-C3zXnbVqbY/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1_eiwe1MR5hlrYTKpenXa1B6RVPyxs2jH/view?usp=sharing"
             className="btn-link"
             target="_blank"
             rel="noopener noreferrer"
