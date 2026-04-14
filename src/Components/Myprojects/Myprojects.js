@@ -27,6 +27,21 @@ function Myprojects() {
       link: "https://cropncarry.com/"
     },
     {
+      title: "Benji Eco Rides",
+      image: "/benji.png",
+      link: "https://benji-eco-rides-web.vercel.app/"
+    },
+    {
+      title: "African Data",
+      image: "/africadata.png",
+      link: "https://www.africadatasolutions.org/"
+    },
+    {
+      title: "GMFB",
+      image: "/gmfb.png",
+      link: "https://www.gmfb.ng/"
+    },
+    {
       title: "Edu Connect",
       image: "/Edu connect.png",
       link: "https://edu-connect-7fh6.vercel.app/",
