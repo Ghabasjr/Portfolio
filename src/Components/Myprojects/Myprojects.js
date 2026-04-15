@@ -3,13 +3,13 @@ import "./Myprojects.css";
 
 function Myprojects() {
   const highlightedProjects = [
-    // {
-    //   title: "My Invest (Fintech App)",
-    //   image: "/MyInvest.png",
-    //   link: "https://play.google.com/store/apps/details?id=com.myinvest",
-    //   description: "Published on Google Play Store with investment tracking & secure authentication",
-    //   isHighlighted: true
-    // },
+    {
+      title: "My Invest (Fintech App)",
+      image: "/myInvest.webp",
+      link: "https://play.google.com/store/apps/details?id=com.myinvestapp.myinvestmobileapp&hl=en",
+      description: "Published on Google Play Store with investment tracking & secure authentication",
+      isHighlighted: true
+    },
     // {
     //   title: "Britkings (Real Estate App)",
     //   image: "/Britkings.png",
